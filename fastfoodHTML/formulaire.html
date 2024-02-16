@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="../fastfoodCSS/formulaire.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de commmande</title>
+</head>
+<body>
+    <div id="reservation-form">
+        <h1>Formulaire de Réservation</h1>
+        <hr>
+        <p>Avec nous la réservation est simple et facile. Complétez le formulaire de réservation en ligne et nous allons vous envoyer votre itinéraire et les détails de paiements. N'oubliez pas de soumettre le paiement de votre réservation dans les 24 heures qui suivet la soumission de ce formulaire de réservation.</p>
+        <form>
+            <div>
+                <label for="text">Nom/Prénom: <span>*</span></label>
+                <input type="text" name="nom_prenom" placeholder="Nom et Prénom" required>
+            </div>
+            <div>
+                <label for="tel">Téléphone: <span>*</span></label>
+                <input type="tel" name="telephone" placeholder="Téléphone" required>
+            </div>
+            <div>
+                <label for="email">Mail: <span>*</span></label>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <label for="date_heure">Date/Heure: <span>*</span> </label>
+                <input type="datetime-local" name="date_heure" required>
+            </div>
+            <div>
+                <label for="commentaires">Commentaires: <span>*</span></label>
+                <textarea name="commentaires" placeholder="Commentaires"></textarea>
+            </div>
+            <button type="submit">Envoyer</button>
+        </form>
+    
+</body>
+</html>
