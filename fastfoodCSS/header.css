@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: roboto;
 }
+img{
+    height: 100%;
+    width: 100%;
+}
 @font-face {
     font-family: roboto;
     src: url(./fonts/Roboto-Medium.ttf);
@@ -111,4 +115,54 @@ nav ul li a{
 #listIngrediants{
     margin-left: 60px;
     font-size: 30px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border-top:  3px solid black;
+}
+#container_menus{
+    display: flex;
+    justify-content: space-between;
+
+}
+#container_menus2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_menus{
+    
+    width: 50%;
+    background-color: rgb(255, 237, 172);
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+.taille_image{
+    width: 300px;
+    margin-left: 50px;
+}
+
+.container_facade{
+
+    display: flex;
+}
+#image_facade{
+    margin-left: 500px;
+    width: 500px;
+    height: 250px;
+}
+.contenu_tacosparty{
+
+    width: 100%;
+    display: flex;
+}
+p{
+    max-width: 50%;
 }
